@@ -1,0 +1,52 @@
+{
+  "name": "dsh-full-copy",
+  "version": "1.0.0",
+  "description": "Adds a \"Copy full turn\" action above the reply action row: one click copies the turn's reasoning, response, and tool-call summaries as Markdown.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "the dsh plugin authors",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "clipboard",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-github-user>/dsh-full-copy.git"
+  },
+  "homepage": "https://github.com/<your-github-user>/dsh-full-copy#readme",
+  "bugs": {
+    "url": "https://github.com/<your-github-user>/dsh-full-copy/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-chat",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

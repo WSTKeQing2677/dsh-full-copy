@@ -1,0 +1,8 @@
+# Full Copy — profile layer.
+# The Host half is inert; the Web UI behavior lives in client.js, which registers
+# one entry into conversation.chat.turnTail (rendered just above the host's own
+# copy / branch action row).
+- insert:
+    - id: full-copy
+      name: 'dsh-full-copy'
+      config: {}

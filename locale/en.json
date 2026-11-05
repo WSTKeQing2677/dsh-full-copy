@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Full Copy",
+    "description": "Adds a \"Copy full turn\" action above the reply action row: one click copies the turn's reasoning, response, and tool-call summaries as Markdown."
+  }
+}
