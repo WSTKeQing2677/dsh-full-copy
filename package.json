@@ -15,11 +15,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-user>/dsh-full-copy.git"
+    "url": "https://github.com/WSTKeQing2677/dsh-full-copy.git"
   },
-  "homepage": "https://github.com/<your-github-user>/dsh-full-copy#readme",
+  "homepage": "https://github.com/WSTKeQing2677/dsh-full-copy#readme",
   "bugs": {
-    "url": "https://github.com/<your-github-user>/dsh-full-copy/issues"
+    "url": "https://github.com/WSTKeQing2677/dsh-full-copy/issues"
   },
   "exports": {
     ".": "./index.js",

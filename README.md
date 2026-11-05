@@ -47,7 +47,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<your-github-user>/dsh-full-copy.git
+git clone https://github.com/WSTKeQing2677/dsh-full-copy.git
 ```
 
 然后在 DSH 会话里对 AI 说：
