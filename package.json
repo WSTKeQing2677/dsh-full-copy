@@ -1,6 +1,6 @@
 {
   "name": "dsh-full-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds a \"Copy full turn\" action above the reply action row: one click copies the turn's reasoning, response, and tool-call summaries as Markdown.",
   "private": true,
   "type": "module",
@@ -32,7 +32,8 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "test/"
   ],
   "dsh": {
     "bundle": {

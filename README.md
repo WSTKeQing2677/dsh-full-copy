@@ -70,6 +70,16 @@ git clone https://github.com/WSTKeQing2677/dsh-full-copy.git
 - 依赖 `conversation.chat.turnTail` 插槽及其 props。版本一变可能失效——它是纯 UI 插件，失效的最坏结果是**按钮不显示**，不影响聊天。
 - 宿主那排操作按钮是自绘的、没有可插入的插槽，所以这个按钮只能加在它**上方**，不能并排。
 
+## 自测
+
+仓库里带一个离线冒烟测试，不联网、不需要 DSH：
+
+```bash
+node test/smoke.mjs
+```
+
+它检查：模块 id 等于包名、`inject` 里有 `slots`/`locale`、只注册一次到 `conversation.chat.turnTail`、`order` 是 10、中英文字典键集一致。改完代码先跑它，比装上去刷新页面快得多。
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。
