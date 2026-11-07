@@ -1,6 +1,6 @@
 {
   "name": "dsh-full-copy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds a \"Copy full turn\" action above the reply action row: one click copies the turn's reasoning, response, and tool-call summaries as Markdown.",
   "private": true,
   "type": "module",
